@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <g transform="rotate(-6 32 32)">
-    <rect x="10" y="10" width="44" height="44" rx="9" fill="#ff3040"/>
-    <path d="M23 20h20v5L29 39h14v5H21v-5l14-14H23z" fill="#090909"/>
+    <rect x="5" y="5" width="54" height="54" rx="11" fill="#ff3040"/>
+    <path d="M18 16h28v7L27 41h19v7H17v-7l19-18H18z" fill="#090909"/>
   </g>
 </svg>
