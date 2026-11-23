@@ -1,11 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Zephra Z">
   <defs>
-    <linearGradient id="red" x1="12" y1="10" x2="52" y2="54" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#ff5964"/>
-      <stop offset="1" stop-color="#e0182d"/>
+    <linearGradient id="red" x1="13" y1="8" x2="53" y2="57" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff6670"/>
+      <stop offset=".52" stop-color="#ff3040"/>
+      <stop offset="1" stop-color="#c71025"/>
     </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+      <feOffset dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".32"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
-  <rect x="2" y="2" width="60" height="60" rx="17" fill="#080808"/>
-  <path d="M16 15h32a2 2 0 0 1 2 2v6.5L28.5 40H48a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H16a2 2 0 0 1-2-2v-6.5L35.5 25H16a2 2 0 0 1-2-2v-6a2 2 0 0 1 2-2Z" fill="url(#red)"/>
-  <path d="m28.8 25.3-4.1 6.2 5 2-5.6 7.7 6.8-.1 4.2-6.2-5-2 5.6-7.7z" fill="#080808"/>
+  <rect x="2" y="2" width="60" height="60" rx="18" fill="#080808"/>
+  <path d="M17 13.5h30.5a3 3 0 0 1 3 3v6.2L29.2 40h17.3a3 3 0 0 1 3 3v5.5a3 3 0 0 1-3 3H17a3 3 0 0 1-3-3v-6.2L34.8 23H17a3 3 0 0 1-3-3v-3.5a3 3 0 0 1 3-3Z" fill="url(#red)" filter="url(#shadow)"/>
+  <path d="m28.5 24.5-4.2 6.7 5.2 2.1-6 8.1 7.1-.1 4.3-6.6-5.2-2.1 5.9-8.1z" fill="#080808"/>
+  <path d="M18 16h11" stroke="#fff" stroke-opacity=".2" stroke-width="1.2" stroke-linecap="round"/>
 </svg>
