@@ -1,6 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Zephra Z">
-  <rect width="64" height="64" rx="15" fill="#080808"/>
-  <path d="M14 16h36v8L27 40h23v8H14v-8l23-16H14z" fill="#ff3040"/>
-  <path d="m30 24-7 9 6 2-7 9 13-11-6-2 7-7z" fill="#080808"/>
-  <path d="M14 16h8M42 16h8M14 40h6M44 44h6" fill="none" stroke="#ff5964" stroke-width="2" stroke-linecap="square"/>
+  <rect width="64" height="64" rx="14" fill="#080808"/>
+  <path d="M16 17h32v8L27 40h21v7H16v-7l21-16H16z" fill="#ff3040"/>
+  <path d="m29 25-4 6 5 2-5 7h6l4-6-5-2 5-7z" fill="#080808"/>
 </svg>
