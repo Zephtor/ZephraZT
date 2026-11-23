@@ -1,17 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Zephra Z">
-  <defs>
-    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ff5964"/>
-      <stop offset="1" stop-color="#e0182d"/>
-    </linearGradient>
-    <filter id="red-glow" x="-35%" y="-35%" width="170%" height="170%">
-      <feGaussianBlur stdDeviation="2.4" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
-  <rect x="3" y="3" width="58" height="58" rx="16" fill="#080808"/>
-  <path d="M12 12h40v12L27 40h25v12H12V40l25-16H12z" fill="url(#red)" filter="url(#red-glow)"/>
-  <path d="M12 12h8v4h-8zM44 12h8v4h-8zM12 20h4v4h-4zM12 40h9l-5 6h-4zM44 40h8v5h-8zM12 48h8v4h-8zM44 48h8v4h-8z" fill="#080808"/>
-  <path d="m28 24-5 7 5 2-6 7h7l5-7-5-2 6-7z" fill="#ff5964"/>
-  <path d="m21 12 4 5-4 5M45 40l-4 5 4 7" fill="none" stroke="#080808" stroke-width="2.5" stroke-linejoin="miter"/>
+  <rect width="64" height="64" rx="14" fill="#080808"/>
+  <path d="M15 17h34v8L27 40h22v8H15v-8l22-15H15z" fill="#ff3040"/>
+  <path d="m28 24-5 7 5 2-5 7h6l5-7-5-2 6-7z" fill="#080808"/>
 </svg>
