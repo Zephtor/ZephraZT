@@ -1,5 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Zephra Z">
-  <rect width="64" height="64" rx="14" fill="#080808"/>
-  <path d="M16 17h32v8L27 40h21v7H16v-7l21-16H16z" fill="#ff3040"/>
-  <path d="m29 25-4 6 5 2-5 7h6l4-6-5-2 5-7z" fill="#080808"/>
+  <defs>
+    <linearGradient id="z" x1="13" y1="12" x2="51" y2="52" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff5964"/>
+      <stop offset="1" stop-color="#e0182d"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="#080808"/>
+  <path d="M17 16h30a2 2 0 0 1 2 2v4.5L28.2 39H45a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H17a2 2 0 0 1-2-2v-4.5L33.8 24H17a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2Z" fill="url(#z)"/>
+  <path d="m29 24-4.4 6.8 5.1 2.1-5.8 7.2h6.4l4.4-6.8-5.1-2.1 5.8-7.2z" fill="#080808"/>
+  <path d="M19 18h9" stroke="#fff" stroke-opacity=".23" stroke-width="1.3" stroke-linecap="round"/>
 </svg>
