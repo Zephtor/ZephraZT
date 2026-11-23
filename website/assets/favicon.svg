@@ -1,11 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Zephra Z">
-  <defs>
-    <linearGradient id="z-red" x1="14" y1="10" x2="48" y2="55" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#ff5964"/>
-      <stop offset="1" stop-color="#e0182d"/>
-    </linearGradient>
-  </defs>
-  <rect width="64" height="64" rx="16" fill="#080808"/>
-  <path d="M15 15h34v9L27 40h22v9H15v-9l22-16H15z" fill="url(#z-red)"/>
-  <path d="m28 24-5 7 5 2-5 7h7l5-7-5-2 5-7z" fill="#080808"/>
+  <rect width="64" height="64" rx="15" fill="#080808"/>
+  <path d="M14 16h36v8L27 40h23v8H14v-8l23-16H14z" fill="#ff3040"/>
+  <path d="m30 24-7 9 6 2-7 9 13-11-6-2 7-7z" fill="#080808"/>
+  <path d="M14 16h8M42 16h8M14 40h6M44 44h6" fill="none" stroke="#ff5964" stroke-width="2" stroke-linecap="square"/>
 </svg>
