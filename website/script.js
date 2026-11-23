@@ -26,3 +26,28 @@ if (menuButton && navigation) {
 
 const year = document.querySelector('#year');
 if (year) year.textContent = String(new Date().getFullYear());
+
+
+const revealTargets = document.querySelectorAll(
+  '.hero-copy, .hero-art, .hero-index, .section-kicker, .vision-grid, .feature-card, .status-heading, .status-row, .safety-note, .docs-cta, .faq-preview-grid, .doc-card, .doc-article',
+);
+
+if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  revealTargets.forEach((element, index) => {
+    element.dataset.reveal = '';
+    if (element.matches('.feature-card, .status-row, .doc-card')) {
+      element.style.setProperty('--reveal-delay', `${(index % 4) * 75}ms`);
+    }
+  });
+
+  const revealObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -35px 0px' });
+
+  revealTargets.forEach((element) => revealObserver.observe(element));
+}
