@@ -10,6 +10,7 @@
     </filter>
   </defs>
   <rect x="3" y="3" width="58" height="58" rx="16" fill="#080808"/>
-  <path d="M15 17h34v6L27 40h8l-5 6H15v-5l21-18H15z" fill="url(#red)" filter="url(#red-glow)"/>
-  <path d="M40 17h9v6h-9zM15 41h11l-5 6h-6zM34 40h15v7H29z" fill="#080808"/>
+  <path d="M14 16h36v7L27 40h22v8H14v-7l23-17H14z" fill="url(#red)" filter="url(#red-glow)"/>
+  <path d="M39 16h11v7H39zM14 41h12l-6 7h-6zM34 40h15v8H28zM19 16h7v5h-7z" fill="#080808"/>
+  <path d="M14 16h8v3h-8zM43 45h6v3h-6z" fill="#ff5964"/>
 </svg>
